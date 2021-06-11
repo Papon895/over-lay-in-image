@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>overlay in image</title>
+   <style type="text/css" media="all">
+      body {
+         margin: 0;
+         padding: 0;
+      }
+      * {
+         margin: 0;
+         padding: 0;
+      }
+      .parent_div {
+         background-color: rgb(219,227,220);
+         width: 100vw;
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         
+      }
+      .child_div {
+         background: linear-gradient(120deg, rgba(255,255,255,0.9) 50%, transparent 50%), url('download.jpg');
+         width: 60vw;
+         height: 60vh;
+         background-size: 100% 100%;
+         box-shadow: 5px 10px 10px -8px #000;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      .child_div h2{
+         color: brown;
+         
+      }
+   </style>
+</head>
+<body>
+   <div class="parent_div">
+      <div class="child_div">
+         
+         <h2>Welcome My Page</h2><br>
+         
+      </div>
+   </div>
+</body>
+</html>
